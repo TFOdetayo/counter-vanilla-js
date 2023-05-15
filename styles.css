@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #000323;
+    background-color: #ceffff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h1 {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+#value {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.button-container {
+    display: flex;
+}
+
+.btn {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 1px solid #a345a3;
+    border-radius: 7px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s;
+    transform: rotate(0deg);
+    
+}
+
+.btn:active, .btn:focus, .btn:hover {
+    background-color: #000323;
+    color: #ceffff;
+}
+.btn:active {
+    transition: 1s;
+    transform: rotate(-7deg);
+}
